@@ -1,0 +1,21 @@
+package com.capg.entities;
+
+import java.util.UUID;
+
+import jakarta.persistence.Entity;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Entity
+public class Address {
+	
+	private UUID addressUuid;
+
+	private String area;
+	private int pincode;
+	private String houseNo;
+}

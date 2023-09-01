@@ -1,0 +1,8 @@
+package com.capg.entities;
+
+public class Complaint {
+	private String description;
+	private String image;
+	private String type;
+
+}
